@@ -8,9 +8,21 @@
 
 #import "STAutoLayoutCenterViewController.h"
 
-@interface STAutoLayoutCenterViewController ()
+@interface STAutoLayoutCenterViewController () {
+
+    IBOutlet __weak UILabel *_leftLabel;
+    IBOutlet __weak NSLayoutConstraint *_leftHorizontalSpaceContraint;
+    IBOutlet __weak UILabel *_rightLabel;
+    IBOutlet __weak NSLayoutConstraint *_rightHorizontalSpaceContraint;
+    IBOutlet __weak UILabel *_topLabel;
+    IBOutlet __weak NSLayoutConstraint *_topVerticalSpaceContraint;
+    IBOutlet __weak UILabel *_bottomLabel;
+    IBOutlet __weak NSLayoutConstraint *_bottomVerticalSpaceContraint;
+}
 
 @end
+
+#define _STSpaceFromCenter 50
 
 @implementation STAutoLayoutCenterViewController
 
@@ -26,13 +38,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
 }
 
-- (void)didReceiveMemoryWarning
+- (void)viewWillLayoutSubviews
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    CGPoint center = self.view.center;
+    
+    _leftHorizontalSpaceContraint.constant = center.x - _leftLabel.frame.size.width - _STSpaceFromCenter;
+    _rightHorizontalSpaceContraint.constant = center.x - _rightLabel.frame.size.width - _STSpaceFromCenter;
+    _topVerticalSpaceContraint.constant = center.y - _topLabel.frame.size.height - _STSpaceFromCenter;
+    _bottomVerticalSpaceContraint.constant = center.y - _bottomLabel.frame.size.height - _STSpaceFromCenter;
 }
 
 @end
