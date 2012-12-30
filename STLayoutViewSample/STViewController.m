@@ -7,6 +7,7 @@
 //
 
 #import "STViewController.h"
+#import "STAutoLayoutEdgeViewController.h"
 
 typedef enum {
     _STSectionDirect,
@@ -14,6 +15,15 @@ typedef enum {
     _STSectionAutoresizingMask,
     _STNumSections
 } _STSections;
+
+typedef enum {
+    _STMenuEdge,
+    _STMenuAlign,
+    _STMenuCenter,
+    _STMenuHorizontal,
+    _STMenuVertical,
+    _STMenuComplex
+} _STMenus;
 
 static NSString *SectionTitles[] = {@"Set Frame", @"Auto Layout", @"Autoresizing Mask"};
 
@@ -23,6 +33,7 @@ static NSString *SectionTitles[] = {@"Set Frame", @"Auto Layout", @"Autoresizing
 {
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
+        self.title = @"Menu";
         _menus = @[@"Edge", @"Align", @"Center", @"Horizontal", @"Vertical", @"Complex"];
     }
     return self;
@@ -69,6 +80,16 @@ static NSString *SectionTitles[] = {@"Set Frame", @"Auto Layout", @"Autoresizing
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
     return SectionTitles[section];
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.section == _STSectionAutoLayout) {
+        if (indexPath.row == _STMenuEdge) {
+            STAutoLayoutEdgeViewController *con = [[STAutoLayoutEdgeViewController alloc] init];
+            [self.navigationController pushViewController:con animated:YES];
+        }
+    }
 }
 
 @end

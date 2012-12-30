@@ -16,7 +16,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewController = [[STViewController alloc] init];
-    self.window.rootViewController = self.viewController;
+    UINavigationController *naviCon = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.rootViewController = naviCon;
     [self.window makeKeyAndVisible];
     return YES;
 }

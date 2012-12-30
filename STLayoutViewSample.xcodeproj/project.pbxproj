@@ -19,6 +19,8 @@
 		1E1B424716902F5400701EF1 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B424616902F5400701EF1 /* STViewController.m */; };
 		1E1B424A16902F5400701EF1 /* STViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B424816902F5400701EF1 /* STViewController_iPhone.xib */; };
 		1E1B424D16902F5400701EF1 /* STViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B424B16902F5400701EF1 /* STViewController_iPad.xib */; };
+		1E1B4256169033D600701EF1 /* STAutoLayoutEdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B4254169033D600701EF1 /* STAutoLayoutEdgeViewController.m */; };
+		1E1B4257169033D600701EF1 /* STAutoLayoutEdgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B4255169033D600701EF1 /* STAutoLayoutEdgeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		1E1B424616902F5400701EF1 /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
 		1E1B424916902F5400701EF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STViewController_iPhone.xib; sourceTree = "<group>"; };
 		1E1B424C16902F5400701EF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STViewController_iPad.xib; sourceTree = "<group>"; };
+		1E1B4253169033D600701EF1 /* STAutoLayoutEdgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoLayoutEdgeViewController.h; sourceTree = "<group>"; };
+		1E1B4254169033D600701EF1 /* STAutoLayoutEdgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoLayoutEdgeViewController.m; sourceTree = "<group>"; };
+		1E1B4255169033D600701EF1 /* STAutoLayoutEdgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STAutoLayoutEdgeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,9 @@
 				1E1B424816902F5400701EF1 /* STViewController_iPhone.xib */,
 				1E1B424B16902F5400701EF1 /* STViewController_iPad.xib */,
 				1E1B423416902F5400701EF1 /* Supporting Files */,
+				1E1B4253169033D600701EF1 /* STAutoLayoutEdgeViewController.h */,
+				1E1B4254169033D600701EF1 /* STAutoLayoutEdgeViewController.m */,
+				1E1B4255169033D600701EF1 /* STAutoLayoutEdgeViewController.xib */,
 			);
 			path = STLayoutViewSample;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 				1E1B424416902F5400701EF1 /* Default-568h@2x.png in Resources */,
 				1E1B424A16902F5400701EF1 /* STViewController_iPhone.xib in Resources */,
 				1E1B424D16902F5400701EF1 /* STViewController_iPad.xib in Resources */,
+				1E1B4257169033D600701EF1 /* STAutoLayoutEdgeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +190,7 @@
 				1E1B423A16902F5400701EF1 /* main.m in Sources */,
 				1E1B423E16902F5400701EF1 /* STAppDelegate.m in Sources */,
 				1E1B424716902F5400701EF1 /* STViewController.m in Sources */,
+				1E1B4256169033D600701EF1 /* STAutoLayoutEdgeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
