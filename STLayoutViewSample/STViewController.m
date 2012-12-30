@@ -11,7 +11,8 @@
 #import "STAutoLayoutAlignViewController.h"
 #import "STAutoLayoutHorizontalViewController.h"
 #import "STAutoLayoutVerticalViewController.h"
-#import "STAutoLayoutCenterViewController.h"
+#import "STAutoLayoutCenter1ViewController.h"
+#import "STAutoLayoutCenter2ViewController.h"
 
 typedef enum {
     _STSectionDirect,
@@ -23,7 +24,8 @@ typedef enum {
 typedef enum {
     _STMenuEdge,
     _STMenuAlign,
-    _STMenuCenter,
+    _STMenuCenter1,
+    _STMenuCenter2,
     _STMenuHorizontal,
     _STMenuVertical,
     _STMenuComplex
@@ -38,7 +40,7 @@ static NSString *SectionTitles[] = {@"Set Frame", @"Auto Layout", @"Autoresizing
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
         self.title = @"Menu";
-        _menus = @[@"Edge", @"Align", @"Center", @"Horizontal", @"Vertical", @"Complex"];
+        _menus = @[@"Edge", @"Align", @"Center1", @"Center2", @"Horizontal", @"Vertical", @"Complex"];
     }
     return self;
 }
@@ -101,8 +103,11 @@ static NSString *SectionTitles[] = {@"Set Frame", @"Auto Layout", @"Autoresizing
         } else if (indexPath.row == _STMenuVertical) {
             STAutoLayoutVerticalViewController *con = [[STAutoLayoutVerticalViewController alloc] init];
             [self.navigationController pushViewController:con animated:YES];
-        } else if (indexPath.row == _STMenuCenter) {
-            STAutoLayoutCenterViewController *con = [[STAutoLayoutCenterViewController alloc] init];
+        } else if (indexPath.row == _STMenuCenter1) {
+            STAutoLayoutCenter1ViewController *con = [[STAutoLayoutCenter1ViewController alloc] init];
+            [self.navigationController pushViewController:con animated:YES];
+        } else if (indexPath.row == _STMenuCenter2) {
+            STAutoLayoutCenter2ViewController *con = [[STAutoLayoutCenter2ViewController alloc] init];
             [self.navigationController pushViewController:con animated:YES];
         }
     }

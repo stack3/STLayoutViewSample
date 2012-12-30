@@ -26,8 +26,10 @@
 		1E1B42681690558100701EF1 /* STAutoLayoutHorizontalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B42661690558100701EF1 /* STAutoLayoutHorizontalViewController.xib */; };
 		1E1B42701690617A00701EF1 /* STAutoLayoutVerticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B426E1690617A00701EF1 /* STAutoLayoutVerticalViewController.m */; };
 		1E1B42711690617A00701EF1 /* STAutoLayoutVerticalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B426F1690617A00701EF1 /* STAutoLayoutVerticalViewController.xib */; };
-		1E1B427516906A6600701EF1 /* STAutoLayoutCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B427316906A6500701EF1 /* STAutoLayoutCenterViewController.m */; };
-		1E1B427616906A6600701EF1 /* STAutoLayoutCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B427416906A6600701EF1 /* STAutoLayoutCenterViewController.xib */; };
+		1E1B427516906A6600701EF1 /* STAutoLayoutCenter2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B427316906A6500701EF1 /* STAutoLayoutCenter2ViewController.m */; };
+		1E1B427616906A6600701EF1 /* STAutoLayoutCenter2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B427416906A6600701EF1 /* STAutoLayoutCenter2ViewController.xib */; };
+		1E1B427F1690904200701EF1 /* STAutoLayoutCenter1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B427D1690904200701EF1 /* STAutoLayoutCenter1ViewController.m */; };
+		1E1B42801690904200701EF1 /* STAutoLayoutCenter1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B427E1690904200701EF1 /* STAutoLayoutCenter1ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,9 +62,12 @@
 		1E1B426D1690617A00701EF1 /* STAutoLayoutVerticalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoLayoutVerticalViewController.h; sourceTree = "<group>"; };
 		1E1B426E1690617A00701EF1 /* STAutoLayoutVerticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoLayoutVerticalViewController.m; sourceTree = "<group>"; };
 		1E1B426F1690617A00701EF1 /* STAutoLayoutVerticalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STAutoLayoutVerticalViewController.xib; sourceTree = "<group>"; };
-		1E1B427216906A6500701EF1 /* STAutoLayoutCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoLayoutCenterViewController.h; sourceTree = "<group>"; };
-		1E1B427316906A6500701EF1 /* STAutoLayoutCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoLayoutCenterViewController.m; sourceTree = "<group>"; };
-		1E1B427416906A6600701EF1 /* STAutoLayoutCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STAutoLayoutCenterViewController.xib; sourceTree = "<group>"; };
+		1E1B427216906A6500701EF1 /* STAutoLayoutCenter2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoLayoutCenter2ViewController.h; sourceTree = "<group>"; };
+		1E1B427316906A6500701EF1 /* STAutoLayoutCenter2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoLayoutCenter2ViewController.m; sourceTree = "<group>"; };
+		1E1B427416906A6600701EF1 /* STAutoLayoutCenter2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STAutoLayoutCenter2ViewController.xib; sourceTree = "<group>"; };
+		1E1B427C1690904200701EF1 /* STAutoLayoutCenter1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoLayoutCenter1ViewController.h; sourceTree = "<group>"; };
+		1E1B427D1690904200701EF1 /* STAutoLayoutCenter1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoLayoutCenter1ViewController.m; sourceTree = "<group>"; };
+		1E1B427E1690904200701EF1 /* STAutoLayoutCenter1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STAutoLayoutCenter1ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +132,12 @@
 				1E1B426D1690617A00701EF1 /* STAutoLayoutVerticalViewController.h */,
 				1E1B426E1690617A00701EF1 /* STAutoLayoutVerticalViewController.m */,
 				1E1B426F1690617A00701EF1 /* STAutoLayoutVerticalViewController.xib */,
-				1E1B427216906A6500701EF1 /* STAutoLayoutCenterViewController.h */,
-				1E1B427316906A6500701EF1 /* STAutoLayoutCenterViewController.m */,
-				1E1B427416906A6600701EF1 /* STAutoLayoutCenterViewController.xib */,
+				1E1B427C1690904200701EF1 /* STAutoLayoutCenter1ViewController.h */,
+				1E1B427D1690904200701EF1 /* STAutoLayoutCenter1ViewController.m */,
+				1E1B427E1690904200701EF1 /* STAutoLayoutCenter1ViewController.xib */,
+				1E1B427216906A6500701EF1 /* STAutoLayoutCenter2ViewController.h */,
+				1E1B427316906A6500701EF1 /* STAutoLayoutCenter2ViewController.m */,
+				1E1B427416906A6600701EF1 /* STAutoLayoutCenter2ViewController.xib */,
 				1E1B423416902F5400701EF1 /* Supporting Files */,
 			);
 			path = STLayoutViewSample;
@@ -209,7 +217,8 @@
 				1E1B4263169037C700701EF1 /* STAutoLayoutAlignViewController.xib in Resources */,
 				1E1B42681690558100701EF1 /* STAutoLayoutHorizontalViewController.xib in Resources */,
 				1E1B42711690617A00701EF1 /* STAutoLayoutVerticalViewController.xib in Resources */,
-				1E1B427616906A6600701EF1 /* STAutoLayoutCenterViewController.xib in Resources */,
+				1E1B427616906A6600701EF1 /* STAutoLayoutCenter2ViewController.xib in Resources */,
+				1E1B42801690904200701EF1 /* STAutoLayoutCenter1ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +237,8 @@
 				1E1B4262169037C700701EF1 /* STAutoLayoutAlignViewController.m in Sources */,
 				1E1B42671690558100701EF1 /* STAutoLayoutHorizontalViewController.m in Sources */,
 				1E1B42701690617A00701EF1 /* STAutoLayoutVerticalViewController.m in Sources */,
-				1E1B427516906A6600701EF1 /* STAutoLayoutCenterViewController.m in Sources */,
+				1E1B427516906A6600701EF1 /* STAutoLayoutCenter2ViewController.m in Sources */,
+				1E1B427F1690904200701EF1 /* STAutoLayoutCenter1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

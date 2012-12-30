@@ -6,31 +6,17 @@
 //  Copyright (c) 2012年 stack3. All rights reserved.
 //
 
-#import "STAutoLayoutCenterViewController.h"
-
-@interface STAutoLayoutCenterViewController () {
-
-    IBOutlet __weak UILabel *_leftLabel;
-    IBOutlet __weak NSLayoutConstraint *_leftHorizontalSpaceContraint;
-    IBOutlet __weak UILabel *_rightLabel;
-    IBOutlet __weak NSLayoutConstraint *_rightHorizontalSpaceContraint;
-    IBOutlet __weak UILabel *_topLabel;
-    IBOutlet __weak NSLayoutConstraint *_topVerticalSpaceContraint;
-    IBOutlet __weak UILabel *_bottomLabel;
-    IBOutlet __weak NSLayoutConstraint *_bottomVerticalSpaceContraint;
-}
-
-@end
+#import "STAutoLayoutCenter2ViewController.h"
 
 #define _STSpaceFromCenter 50
 
-@implementation STAutoLayoutCenterViewController
+@implementation STAutoLayoutCenter2ViewController
 
 - (id)init
 {
-    self = [super initWithNibName:@"STAutoLayoutCenterViewController" bundle:nil];
+    self = [super initWithNibName:@"STAutoLayoutCenter2ViewController" bundle:nil];
     if (self) {
-        self.title = @"Center";
+        self.title = @"Center2";
     }
     return self;
 }
