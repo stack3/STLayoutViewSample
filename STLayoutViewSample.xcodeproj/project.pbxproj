@@ -21,6 +21,7 @@
 		1E1B424D16902F5400701EF1 /* STViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B424B16902F5400701EF1 /* STViewController_iPad.xib */; };
 		1E1B4256169033D600701EF1 /* STAutoLayoutEdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B4254169033D600701EF1 /* STAutoLayoutEdgeViewController.m */; };
 		1E1B4257169033D600701EF1 /* STAutoLayoutEdgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B4255169033D600701EF1 /* STAutoLayoutEdgeViewController.xib */; };
+		1E1B425E1690365200701EF1 /* UINavigationController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B425D1690360500701EF1 /* UINavigationController+Rotate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		1E1B4253169033D600701EF1 /* STAutoLayoutEdgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoLayoutEdgeViewController.h; sourceTree = "<group>"; };
 		1E1B4254169033D600701EF1 /* STAutoLayoutEdgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoLayoutEdgeViewController.m; sourceTree = "<group>"; };
 		1E1B4255169033D600701EF1 /* STAutoLayoutEdgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STAutoLayoutEdgeViewController.xib; sourceTree = "<group>"; };
+		1E1B425C1690360500701EF1 /* UINavigationController+Rotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotate.h"; sourceTree = "<group>"; };
+		1E1B425D1690360500701EF1 /* UINavigationController+Rotate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,16 +93,18 @@
 		1E1B423316902F5400701EF1 /* STLayoutViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				1E1B425C1690360500701EF1 /* UINavigationController+Rotate.h */,
+				1E1B425D1690360500701EF1 /* UINavigationController+Rotate.m */,
 				1E1B423C16902F5400701EF1 /* STAppDelegate.h */,
 				1E1B423D16902F5400701EF1 /* STAppDelegate.m */,
 				1E1B424516902F5400701EF1 /* STViewController.h */,
 				1E1B424616902F5400701EF1 /* STViewController.m */,
 				1E1B424816902F5400701EF1 /* STViewController_iPhone.xib */,
 				1E1B424B16902F5400701EF1 /* STViewController_iPad.xib */,
-				1E1B423416902F5400701EF1 /* Supporting Files */,
 				1E1B4253169033D600701EF1 /* STAutoLayoutEdgeViewController.h */,
 				1E1B4254169033D600701EF1 /* STAutoLayoutEdgeViewController.m */,
 				1E1B4255169033D600701EF1 /* STAutoLayoutEdgeViewController.xib */,
+				1E1B423416902F5400701EF1 /* Supporting Files */,
 			);
 			path = STLayoutViewSample;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				1E1B423E16902F5400701EF1 /* STAppDelegate.m in Sources */,
 				1E1B424716902F5400701EF1 /* STViewController.m in Sources */,
 				1E1B4256169033D600701EF1 /* STAutoLayoutEdgeViewController.m in Sources */,
+				1E1B425E1690365200701EF1 /* UINavigationController+Rotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

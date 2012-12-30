@@ -12,7 +12,7 @@
 
 - (id)init
 {
-    self = [super initWithNibName:nil bundle:nil];
+    self = [super initWithNibName:@"STViewController_iPhone" bundle:nil];
     if (self) {
         self.title = @"Edge";
     }
