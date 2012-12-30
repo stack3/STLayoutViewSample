@@ -11,6 +11,7 @@
 #import "STAutoLayoutAlignViewController.h"
 #import "STAutoLayoutHorizontalViewController.h"
 #import "STAutoLayoutVerticalViewController.h"
+#import "STAutoLayoutCenterViewController.h"
 
 typedef enum {
     _STSectionDirect,
@@ -99,6 +100,9 @@ static NSString *SectionTitles[] = {@"Set Frame", @"Auto Layout", @"Autoresizing
             [self.navigationController pushViewController:con animated:YES];
         } else if (indexPath.row == _STMenuVertical) {
             STAutoLayoutVerticalViewController *con = [[STAutoLayoutVerticalViewController alloc] init];
+            [self.navigationController pushViewController:con animated:YES];
+        } else if (indexPath.row == _STMenuCenter) {
+            STAutoLayoutCenterViewController *con = [[STAutoLayoutCenterViewController alloc] init];
             [self.navigationController pushViewController:con animated:YES];
         }
     }
