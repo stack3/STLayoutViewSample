@@ -32,8 +32,10 @@
 
 - (void)buttonDidTap
 {
-    [_searchButton setTitle:@"Looooong text" forState:UIControlStateNormal];
-    _label.text = @"Looooong text";
+    NSString *longText = @"Looooong text";
+    [_searchButton setTitle:longText forState:UIControlStateNormal];
+    _flexibleWidthLabel.text = longText;
+    _nameLabel.text = longText;
 }
 
 @end
