@@ -24,6 +24,8 @@
 		1E1B4263169037C700701EF1 /* STAutoLayoutAlignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B4261169037C700701EF1 /* STAutoLayoutAlignViewController.xib */; };
 		1E1B42671690558100701EF1 /* STAutoLayoutHorizontalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B42651690558100701EF1 /* STAutoLayoutHorizontalViewController.m */; };
 		1E1B42681690558100701EF1 /* STAutoLayoutHorizontalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B42661690558100701EF1 /* STAutoLayoutHorizontalViewController.xib */; };
+		1E1B42701690617A00701EF1 /* STAutoLayoutVerticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B426E1690617A00701EF1 /* STAutoLayoutVerticalViewController.m */; };
+		1E1B42711690617A00701EF1 /* STAutoLayoutVerticalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B426F1690617A00701EF1 /* STAutoLayoutVerticalViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,9 @@
 		1E1B42641690558100701EF1 /* STAutoLayoutHorizontalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoLayoutHorizontalViewController.h; sourceTree = "<group>"; };
 		1E1B42651690558100701EF1 /* STAutoLayoutHorizontalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoLayoutHorizontalViewController.m; sourceTree = "<group>"; };
 		1E1B42661690558100701EF1 /* STAutoLayoutHorizontalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STAutoLayoutHorizontalViewController.xib; sourceTree = "<group>"; };
+		1E1B426D1690617A00701EF1 /* STAutoLayoutVerticalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoLayoutVerticalViewController.h; sourceTree = "<group>"; };
+		1E1B426E1690617A00701EF1 /* STAutoLayoutVerticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoLayoutVerticalViewController.m; sourceTree = "<group>"; };
+		1E1B426F1690617A00701EF1 /* STAutoLayoutVerticalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STAutoLayoutVerticalViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,9 @@
 				1E1B42641690558100701EF1 /* STAutoLayoutHorizontalViewController.h */,
 				1E1B42651690558100701EF1 /* STAutoLayoutHorizontalViewController.m */,
 				1E1B42661690558100701EF1 /* STAutoLayoutHorizontalViewController.xib */,
+				1E1B426D1690617A00701EF1 /* STAutoLayoutVerticalViewController.h */,
+				1E1B426E1690617A00701EF1 /* STAutoLayoutVerticalViewController.m */,
+				1E1B426F1690617A00701EF1 /* STAutoLayoutVerticalViewController.xib */,
 				1E1B423416902F5400701EF1 /* Supporting Files */,
 			);
 			path = STLayoutViewSample;
@@ -192,6 +200,7 @@
 				1E1B4257169033D600701EF1 /* STAutoLayoutEdgeViewController.xib in Resources */,
 				1E1B4263169037C700701EF1 /* STAutoLayoutAlignViewController.xib in Resources */,
 				1E1B42681690558100701EF1 /* STAutoLayoutHorizontalViewController.xib in Resources */,
+				1E1B42711690617A00701EF1 /* STAutoLayoutVerticalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +218,7 @@
 				1E1B425E1690365200701EF1 /* UINavigationController+Rotate.m in Sources */,
 				1E1B4262169037C700701EF1 /* STAutoLayoutAlignViewController.m in Sources */,
 				1E1B42671690558100701EF1 /* STAutoLayoutHorizontalViewController.m in Sources */,
+				1E1B42701690617A00701EF1 /* STAutoLayoutVerticalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface STAutoLayoutAlignViewController : UIViewController {
-    IBOutlet UILabel *_rightMarginLabel1;
-    IBOutlet UILabel *_rightMarginLabel2;
-    IBOutlet UILabel *_noRightMarginLabel1;
-    IBOutlet UILabel *_noRightMarginLabel2;
-    IBOutlet UIButton *_button;
+    IBOutlet __weak UILabel *_rightMarginLabel1;
+    IBOutlet __weak UILabel *_rightMarginLabel2;
+    IBOutlet __weak UILabel *_noRightMarginLabel1;
+    IBOutlet __weak UILabel *_noRightMarginLabel2;
+    IBOutlet __weak UIButton *_button;
 }
 
 @end

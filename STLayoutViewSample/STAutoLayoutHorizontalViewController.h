@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface STAutoLayoutHorizontalViewController : UIViewController {
-    IBOutlet UIButton *_searchButton;
-    IBOutlet UILabel *_label;
-    IBOutlet UIButton *_longTextButton;
+    IBOutlet __weak UIButton *_searchButton;
+    IBOutlet __weak UILabel *_label;
+    IBOutlet __weak UIButton *_longTextButton;
 }
 
 @end
