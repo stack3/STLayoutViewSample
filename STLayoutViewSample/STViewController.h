@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STViewController : UIViewController
+@interface STViewController : UIViewController<UITableViewDataSource, UITableViewDelegate> {
+    __strong NSArray *_menus;
+    __weak UITableView *_tableView;
+}
 
 @end

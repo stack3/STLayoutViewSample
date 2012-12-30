@@ -8,22 +8,67 @@
 
 #import "STViewController.h"
 
-@interface STViewController ()
+typedef enum {
+    _STSectionDirect,
+    _STSectionAutoLayout,
+    _STSectionAutoresizingMask,
+    _STNumSections
+} _STSections;
 
-@end
+static NSString *SectionTitles[] = {@"Set Frame", @"Auto Layout", @"Autoresizing Mask"};
 
 @implementation STViewController
+
+- (id)init
+{
+    self = [super initWithNibName:nil bundle:nil];
+    if (self) {
+        _menus = @[@"Edge", @"Align", @"Center", @"Horizontal", @"Vertical", @"Complex"];
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    _tableView = tableView;
+    _tableView.dataSource = self;
+    _tableView.delegate = self;
+    [self.view addSubview:_tableView];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)viewDidLayoutSubviews
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    _tableView.frame = self.view.bounds;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return _menus.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *cellId = @"cellId";
+    UITableViewCell *cell = [_tableView dequeueReusableCellWithIdentifier:cellId];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+    }
+    cell.textLabel.text = [_menus objectAtIndex:indexPath.row];
+    
+    return cell;
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return _STNumSections;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    return SectionTitles[section];
 }
 
 @end
