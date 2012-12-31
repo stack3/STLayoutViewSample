@@ -30,6 +30,8 @@
 		1E1B427616906A6600701EF1 /* STAutoLayoutCenter2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B427416906A6600701EF1 /* STAutoLayoutCenter2ViewController.xib */; };
 		1E1B427F1690904200701EF1 /* STAutoLayoutCenter1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B427D1690904200701EF1 /* STAutoLayoutCenter1ViewController.m */; };
 		1E1B42801690904200701EF1 /* STAutoLayoutCenter1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B427E1690904200701EF1 /* STAutoLayoutCenter1ViewController.xib */; };
+		1E1B428416911A3900701EF1 /* STAutoLayoutSizeToFitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B428216911A3800701EF1 /* STAutoLayoutSizeToFitViewController.m */; };
+		1E1B428516911A3900701EF1 /* STAutoLayoutSizeToFitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B428316911A3800701EF1 /* STAutoLayoutSizeToFitViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,9 @@
 		1E1B427C1690904200701EF1 /* STAutoLayoutCenter1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoLayoutCenter1ViewController.h; sourceTree = "<group>"; };
 		1E1B427D1690904200701EF1 /* STAutoLayoutCenter1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoLayoutCenter1ViewController.m; sourceTree = "<group>"; };
 		1E1B427E1690904200701EF1 /* STAutoLayoutCenter1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STAutoLayoutCenter1ViewController.xib; sourceTree = "<group>"; };
+		1E1B428116911A3800701EF1 /* STAutoLayoutSizeToFitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoLayoutSizeToFitViewController.h; sourceTree = "<group>"; };
+		1E1B428216911A3800701EF1 /* STAutoLayoutSizeToFitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoLayoutSizeToFitViewController.m; sourceTree = "<group>"; };
+		1E1B428316911A3800701EF1 /* STAutoLayoutSizeToFitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STAutoLayoutSizeToFitViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,9 @@
 				1E1B4253169033D600701EF1 /* STAutoLayoutEdgeViewController.h */,
 				1E1B4254169033D600701EF1 /* STAutoLayoutEdgeViewController.m */,
 				1E1B4255169033D600701EF1 /* STAutoLayoutEdgeViewController.xib */,
+				1E1B428116911A3800701EF1 /* STAutoLayoutSizeToFitViewController.h */,
+				1E1B428216911A3800701EF1 /* STAutoLayoutSizeToFitViewController.m */,
+				1E1B428316911A3800701EF1 /* STAutoLayoutSizeToFitViewController.xib */,
 				1E1B425F169037C700701EF1 /* STAutoLayoutAlignViewController.h */,
 				1E1B4260169037C700701EF1 /* STAutoLayoutAlignViewController.m */,
 				1E1B4261169037C700701EF1 /* STAutoLayoutAlignViewController.xib */,
@@ -219,6 +227,7 @@
 				1E1B42711690617A00701EF1 /* STAutoLayoutVerticalViewController.xib in Resources */,
 				1E1B427616906A6600701EF1 /* STAutoLayoutCenter2ViewController.xib in Resources */,
 				1E1B42801690904200701EF1 /* STAutoLayoutCenter1ViewController.xib in Resources */,
+				1E1B428516911A3900701EF1 /* STAutoLayoutSizeToFitViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +248,7 @@
 				1E1B42701690617A00701EF1 /* STAutoLayoutVerticalViewController.m in Sources */,
 				1E1B427516906A6600701EF1 /* STAutoLayoutCenter2ViewController.m in Sources */,
 				1E1B427F1690904200701EF1 /* STAutoLayoutCenter1ViewController.m in Sources */,
+				1E1B428416911A3900701EF1 /* STAutoLayoutSizeToFitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

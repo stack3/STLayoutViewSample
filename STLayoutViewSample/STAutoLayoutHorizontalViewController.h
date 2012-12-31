@@ -10,10 +10,8 @@
 
 @interface STAutoLayoutHorizontalViewController : UIViewController {
     IBOutlet __weak UIButton *_searchButton;
-    IBOutlet __weak UILabel *_flexibleWidthLabel;
     IBOutlet __weak UILabel *_nameLabel;
     IBOutlet __weak UIButton *_longTextButton;
-    IBOutlet __weak UILabel *_wrapLabel;
 }
 
 @end

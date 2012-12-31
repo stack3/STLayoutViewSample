@@ -34,9 +34,7 @@
 {
     NSString *longText = @"Looooong text";
     [_searchButton setTitle:longText forState:UIControlStateNormal];
-    _flexibleWidthLabel.text = longText;
     _nameLabel.text = longText;
-    _wrapLabel.text = @"Looooooooooooooooooooooooooooooooooooooooooooong text";
 }
 
 @end
