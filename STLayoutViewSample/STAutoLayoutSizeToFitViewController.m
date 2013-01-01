@@ -28,7 +28,7 @@
 
 - (void)buttonDidTap
 {
-    _flexibleWidthLabel.text = @"Loooong text";
+    _flexibleWidthLabel.text = @"Loooooooooong text";
     _flexibleHeightLabel.text = @"Looooooooooooooooooooooooooooooooooooooooooooong text";
 }
 

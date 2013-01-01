@@ -42,7 +42,7 @@ static NSString *SectionTitles[] = {@"Set Frame", @"Auto Layout", @"Autoresizing
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
         self.title = @"Menu";
-        _menus = @[@"Edge", @"SizeToFit", @"Align", @"Center1", @"Center2", @"Horizontal", @"Vertical", @"Complex"];
+        _menus = @[@"Edge", @"Size to Fit", @"Align", @"Center1", @"Center2", @"Horizontal", @"Vertical", @"Complex"];
     }
     return self;
 }
