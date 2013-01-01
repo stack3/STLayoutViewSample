@@ -13,6 +13,7 @@
     __weak UIButton *_searchButton;
     __weak UILabel *_nameLabel;
     __weak UITextField *_nameTextField;
+    __weak UIButton *_longTextButton;
 }
 
 @end
