@@ -34,6 +34,7 @@
 		1E1B428516911A3900701EF1 /* STAutoLayoutSizeToFitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1B428316911A3800701EF1 /* STAutoLayoutSizeToFitViewController.xib */; };
 		1EEF7C3D1692D41F0009E0A9 /* STSetFrameEdgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF7C3C1692D41F0009E0A9 /* STSetFrameEdgeViewController.m */; };
 		1EEF7C411692D8680009E0A9 /* STSetFrameSizeToFitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF7C401692D8670009E0A9 /* STSetFrameSizeToFitViewController.m */; };
+		1EEF7C441692DCA40009E0A9 /* STSetFrameAlignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF7C431692DCA40009E0A9 /* STSetFrameAlignViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,8 @@
 		1EEF7C3C1692D41F0009E0A9 /* STSetFrameEdgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSetFrameEdgeViewController.m; sourceTree = "<group>"; };
 		1EEF7C3F1692D8670009E0A9 /* STSetFrameSizeToFitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSetFrameSizeToFitViewController.h; sourceTree = "<group>"; };
 		1EEF7C401692D8670009E0A9 /* STSetFrameSizeToFitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSetFrameSizeToFitViewController.m; sourceTree = "<group>"; };
+		1EEF7C421692DCA40009E0A9 /* STSetFrameAlignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSetFrameAlignViewController.h; sourceTree = "<group>"; };
+		1EEF7C431692DCA40009E0A9 /* STSetFrameAlignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSetFrameAlignViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				1EEF7C3C1692D41F0009E0A9 /* STSetFrameEdgeViewController.m */,
 				1EEF7C3F1692D8670009E0A9 /* STSetFrameSizeToFitViewController.h */,
 				1EEF7C401692D8670009E0A9 /* STSetFrameSizeToFitViewController.m */,
+				1EEF7C421692DCA40009E0A9 /* STSetFrameAlignViewController.h */,
+				1EEF7C431692DCA40009E0A9 /* STSetFrameAlignViewController.m */,
 				1E1B423416902F5400701EF1 /* Supporting Files */,
 			);
 			path = STLayoutViewSample;
@@ -261,6 +266,7 @@
 				1E1B428416911A3900701EF1 /* STAutoLayoutSizeToFitViewController.m in Sources */,
 				1EEF7C3D1692D41F0009E0A9 /* STSetFrameEdgeViewController.m in Sources */,
 				1EEF7C411692D8680009E0A9 /* STSetFrameSizeToFitViewController.m in Sources */,
+				1EEF7C441692DCA40009E0A9 /* STSetFrameAlignViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
