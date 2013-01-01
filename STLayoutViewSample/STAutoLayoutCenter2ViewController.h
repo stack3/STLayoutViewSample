@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface STAutoLayoutCenter2ViewController : UIViewController {
-    @private
     //
     // Notice!
     // If you dragged any label on Interface Builder, the IBOutlet of label's contraint will be unbinded.

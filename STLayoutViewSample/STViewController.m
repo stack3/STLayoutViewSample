@@ -16,6 +16,7 @@
 #import "STSetFrameEdgeViewController.h"
 #import "STSetFrameSizeToFitViewController.h"
 #import "STSetFrameCenter1ViewController.h"
+#import "STSetFrameCenter2ViewController.h"
 
 typedef enum {
     _STSectionAutoLayout,
@@ -121,6 +122,9 @@ static NSString *SectionTitles[] = {@"Auto Layout", @"Set Frame"};
             [self.navigationController pushViewController:con animated:YES];
         } else if (indexPath.row == _STMenuCenter1) {
             STSetFrameCenter1ViewController *con = [[STSetFrameCenter1ViewController alloc] init];
+            [self.navigationController pushViewController:con animated:YES];
+        } else if (indexPath.row == _STMenuCenter2) {
+            STSetFrameCenter2ViewController *con = [[STSetFrameCenter2ViewController alloc] init];
             [self.navigationController pushViewController:con animated:YES];
         }
     }

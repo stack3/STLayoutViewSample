@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface STSetFrameEdgeViewController : UIViewController {
-    @private
     __weak UILabel *_leftTopLabel;
     __weak UILabel *_rightTopLabel;
     __weak UILabel *_leftBottomLabel;
