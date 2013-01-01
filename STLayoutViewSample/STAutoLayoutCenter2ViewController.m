@@ -16,8 +16,7 @@
 {
     self = [super initWithNibName:@"STAutoLayoutCenter2ViewController" bundle:nil];
     if (self) {
-        self.title = @"Center2";
-        self.navigationItem.prompt = @"Auto Layout";
+        self.title = @"Auto Layout - Center2";
     }
     return self;
 }

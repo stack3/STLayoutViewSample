@@ -18,8 +18,7 @@
 {
     self = [super initWithNibName:@"STAutoLayoutHorizontalViewController" bundle:nil];
     if (self) {
-        self.title = @"Horizontal";
-        self.navigationItem.prompt = @"Auto Layout";
+        self.title = @"Auto Layout - Horizontal";
     }
     return self;
 }

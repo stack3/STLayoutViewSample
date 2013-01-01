@@ -14,8 +14,7 @@
 {
     self = [super initWithNibName:@"STAutoLayoutEdgeViewController" bundle:nil];
     if (self) {
-        self.title = @"Edge";
-        self.navigationItem.prompt = @"Auto Layout";
+        self.title = @"Auto Layout - Edge";
     }
     return self;
 }

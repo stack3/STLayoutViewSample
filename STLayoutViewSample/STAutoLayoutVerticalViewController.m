@@ -14,8 +14,7 @@
 {
     self = [super initWithNibName:@"STAutoLayoutVerticalViewController" bundle:nil];
     if (self) {
-        self.title = @"Vertical";
-        self.navigationItem.prompt = @"Auto Layout";
+        self.title = @"Auto Layout - Vertical";
     }
     return self;
 }

@@ -18,8 +18,7 @@
 {
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
-        self.title = @"Size to Fit";
-        self.navigationItem.prompt = @"Set Frame";
+        self.title = @"Set Frame - Size to Fit";
     }
     return self;
 }

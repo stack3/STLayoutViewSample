@@ -14,8 +14,7 @@
 {
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
-        self.title = @"Edge";
-        self.navigationItem.prompt = @"Set Frame";
+        self.title = @"Set Frame - Edge";
     }
     return self;
 }
