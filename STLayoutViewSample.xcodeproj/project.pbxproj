@@ -34,6 +34,8 @@
 		1EEF7C411692D8680009E0A9 /* STSetFrameSizeToFitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF7C401692D8670009E0A9 /* STSetFrameSizeToFitViewController.m */; };
 		1EEF7C471692E7B70009E0A9 /* STSetFrameCenter1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF7C461692E7B70009E0A9 /* STSetFrameCenter1ViewController.m */; };
 		1EEF7C4A1692EBDB0009E0A9 /* STSetFrameCenter2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF7C491692EBDB0009E0A9 /* STSetFrameCenter2ViewController.m */; };
+		1EEF7C4D1692EEE60009E0A9 /* STSetFrameHorizontalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF7C4C1692EEE50009E0A9 /* STSetFrameHorizontalViewController.m */; };
+		1EEF7C501692EFA20009E0A9 /* STSetFrameVerticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEF7C4F1692EFA10009E0A9 /* STSetFrameVerticalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,10 @@
 		1EEF7C461692E7B70009E0A9 /* STSetFrameCenter1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSetFrameCenter1ViewController.m; sourceTree = "<group>"; };
 		1EEF7C481692EBDA0009E0A9 /* STSetFrameCenter2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSetFrameCenter2ViewController.h; sourceTree = "<group>"; };
 		1EEF7C491692EBDB0009E0A9 /* STSetFrameCenter2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSetFrameCenter2ViewController.m; sourceTree = "<group>"; };
+		1EEF7C4B1692EEE40009E0A9 /* STSetFrameHorizontalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSetFrameHorizontalViewController.h; sourceTree = "<group>"; };
+		1EEF7C4C1692EEE50009E0A9 /* STSetFrameHorizontalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSetFrameHorizontalViewController.m; sourceTree = "<group>"; };
+		1EEF7C4E1692EFA10009E0A9 /* STSetFrameVerticalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSetFrameVerticalViewController.h; sourceTree = "<group>"; };
+		1EEF7C4F1692EFA10009E0A9 /* STSetFrameVerticalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSetFrameVerticalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,10 @@
 				1EEF7C461692E7B70009E0A9 /* STSetFrameCenter1ViewController.m */,
 				1EEF7C481692EBDA0009E0A9 /* STSetFrameCenter2ViewController.h */,
 				1EEF7C491692EBDB0009E0A9 /* STSetFrameCenter2ViewController.m */,
+				1EEF7C4B1692EEE40009E0A9 /* STSetFrameHorizontalViewController.h */,
+				1EEF7C4C1692EEE50009E0A9 /* STSetFrameHorizontalViewController.m */,
+				1EEF7C4E1692EFA10009E0A9 /* STSetFrameVerticalViewController.h */,
+				1EEF7C4F1692EFA10009E0A9 /* STSetFrameVerticalViewController.m */,
 				1E1B423416902F5400701EF1 /* Supporting Files */,
 			);
 			path = STLayoutViewSample;
@@ -263,6 +273,8 @@
 				1EEF7C411692D8680009E0A9 /* STSetFrameSizeToFitViewController.m in Sources */,
 				1EEF7C471692E7B70009E0A9 /* STSetFrameCenter1ViewController.m in Sources */,
 				1EEF7C4A1692EBDB0009E0A9 /* STSetFrameCenter2ViewController.m in Sources */,
+				1EEF7C4D1692EEE60009E0A9 /* STSetFrameHorizontalViewController.m in Sources */,
+				1EEF7C501692EFA20009E0A9 /* STSetFrameVerticalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
