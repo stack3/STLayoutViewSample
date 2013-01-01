@@ -16,9 +16,8 @@
 #import "STAutoLayoutCenter2ViewController.h"
 
 typedef enum {
-    _STSectionDirect,
     _STSectionAutoLayout,
-    _STSectionAutoresizingMask,
+    _STSectionSetFrame,
     _STNumSections
 } _STSections;
 
@@ -30,10 +29,10 @@ typedef enum {
     _STMenuCenter2,
     _STMenuHorizontal,
     _STMenuVertical,
-    _STMenuComplex
+    //_STMenuComplex
 } _STMenus;
 
-static NSString *SectionTitles[] = {@"Set Frame", @"Auto Layout", @"Autoresizing Mask"};
+static NSString *SectionTitles[] = {@"Auto Layout", @"Set Frame"};
 
 @implementation STViewController
 
@@ -42,7 +41,7 @@ static NSString *SectionTitles[] = {@"Set Frame", @"Auto Layout", @"Autoresizing
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
         self.title = @"Menu";
-        _menus = @[@"Edge", @"Size to Fit", @"Align", @"Center1", @"Center2", @"Horizontal", @"Vertical", @"Complex"];
+        _menus = @[@"Edge", @"Size to Fit", @"Align", @"Center1", @"Center2", @"Horizontal", @"Vertical"/*, @"Complex"*/];
     }
     return self;
 }
