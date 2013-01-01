@@ -15,6 +15,7 @@
     self = [super initWithNibName:@"STAutoLayoutAlignViewController" bundle:nil];
     if (self) {
         self.title = @"Align";
+        self.navigationItem.prompt = @"Auto Layout";
     }
     return self;
 }

@@ -14,7 +14,8 @@
 {
     self = [super initWithNibName:@"STAutoLayoutSizeToFitViewController" bundle:nil];
     if (self) {
-        // Custom initialization
+        self.title = @"Size to Fit";
+        self.navigationItem.prompt = @"Auto Layout";
     }
     return self;
 }
