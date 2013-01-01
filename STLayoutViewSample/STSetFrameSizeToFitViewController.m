@@ -83,7 +83,7 @@
 {
     _flexibleWidthLabel.text = @"Looooooooooooooooong text";
     _flexibleHeightLabel.text = @"Looooooooooooooooooooooooooooooooooooooooooooong text";
-    [self.view setNeedsLayout];
+    [self.view setNeedsLayout]; // It will call viewDidLayoutSubviews later.
 }
 
 @end
