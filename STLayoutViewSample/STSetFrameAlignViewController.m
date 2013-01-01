@@ -8,17 +8,14 @@
 
 #import "STSetFrameAlignViewController.h"
 
-@interface STSetFrameAlignViewController ()
-
-@end
-
 @implementation STSetFrameAlignViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)init
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super initWithNibName:nil bundle:nil];
     if (self) {
-        // Custom initialization
+        self.title = @"Align";
+        self.navigationItem.prompt = @"Set Frame";
     }
     return self;
 }
@@ -27,12 +24,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
