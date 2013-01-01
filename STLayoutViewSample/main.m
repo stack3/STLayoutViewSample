@@ -2,7 +2,7 @@
 //  main.m
 //  STLayoutViewSample
 //
-//  Created by MIYAMOTO, Hideaki on 2012/12/30.
+//  Created by EIMEI on 2012/12/30.
 //  Copyright (c) 2012年 stack3. All rights reserved.
 //
 
