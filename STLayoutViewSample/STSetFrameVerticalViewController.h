@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STSetFrameVerticalViewController : UIViewController
+@interface STSetFrameVerticalViewController : UIViewController<UITableViewDataSource, UITableViewDelegate> {
+    __weak UIView *_headerView;
+    __weak UITableView *_tableView;
+    __weak UIView *_footerView;
+}
 
 @end
