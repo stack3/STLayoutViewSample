@@ -193,7 +193,6 @@
 							<reference ref="449252745"/>
 							<reference ref="844327840"/>
 							<reference ref="458181510"/>
-							<reference ref="825996892"/>
 							<object class="IBNSLayoutConstraint" id="601026858">
 								<reference key="firstItem" ref="825996892"/>
 								<int key="firstAttribute">5</int>
@@ -322,6 +321,7 @@
 								<float key="scoringTypeFloat">29</float>
 								<int key="contentType">3</int>
 							</object>
+							<reference ref="825996892"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
