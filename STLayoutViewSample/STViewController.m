@@ -9,14 +9,12 @@
 #import "STViewController.h"
 #import "STAutoLayoutEdgeViewController.h"
 #import "STAutoLayoutSizeToFitViewController.h"
-#import "STAutoLayoutAlignViewController.h"
 #import "STAutoLayoutHorizontalViewController.h"
 #import "STAutoLayoutVerticalViewController.h"
 #import "STAutoLayoutCenter1ViewController.h"
 #import "STAutoLayoutCenter2ViewController.h"
 #import "STSetFrameEdgeViewController.h"
 #import "STSetFrameSizeToFitViewController.h"
-#import "STSetFrameAlignViewController.h"
 
 typedef enum {
     _STSectionAutoLayout,
@@ -27,7 +25,6 @@ typedef enum {
 typedef enum {
     _STMenuEdge,
     _STMenuSizeToFit,
-    _STMenuAlign,
     _STMenuCenter1,
     _STMenuCenter2,
     _STMenuHorizontal,
@@ -44,7 +41,7 @@ static NSString *SectionTitles[] = {@"Auto Layout", @"Set Frame"};
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
         self.title = @"Menu";
-        _menus = @[@"Edge", @"Size to Fit", @"Align", @"Center1", @"Center2", @"Horizontal", @"Vertical"/*, @"Complex"*/];
+        _menus = @[@"Edge", @"Size to Fit", @"Center1", @"Center2", @"Horizontal", @"Vertical"/*, @"Complex"*/];
     }
     return self;
 }
@@ -98,9 +95,6 @@ static NSString *SectionTitles[] = {@"Auto Layout", @"Set Frame"};
         if (indexPath.row == _STMenuEdge) {
             STAutoLayoutEdgeViewController *con = [[STAutoLayoutEdgeViewController alloc] init];
             [self.navigationController pushViewController:con animated:YES];
-        } else if (indexPath.row == _STMenuAlign) {
-            STAutoLayoutAlignViewController *con = [[STAutoLayoutAlignViewController alloc] init];
-            [self.navigationController pushViewController:con animated:YES];
         } else if (indexPath.row == _STMenuSizeToFit) {
             STAutoLayoutSizeToFitViewController *con = [[STAutoLayoutSizeToFitViewController alloc] init];
             [self.navigationController pushViewController:con animated:YES];
@@ -123,9 +117,6 @@ static NSString *SectionTitles[] = {@"Auto Layout", @"Set Frame"};
             [self.navigationController pushViewController:con animated:YES];
         } else if (indexPath.row == _STMenuSizeToFit) {
             STSetFrameSizeToFitViewController *con = [[STSetFrameSizeToFitViewController alloc] init];
-            [self.navigationController pushViewController:con animated:YES];
-        } else if (indexPath.row == _STMenuAlign) {
-            STSetFrameAlignViewController *con = [[STSetFrameAlignViewController alloc] init];
             [self.navigationController pushViewController:con animated:YES];
         }
     }
