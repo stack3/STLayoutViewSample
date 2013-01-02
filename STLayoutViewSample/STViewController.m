@@ -49,9 +49,9 @@ typedef enum {
 typedef enum {
     _STMenuEdge,
     _STMenuSizeToFit,
-    _STMenuHorizontal,
     _STMenuCenter1,
     _STMenuCenter2,
+    _STMenuHorizontal,
     _STMenuVertical,
     _STMenuFill,
 } _STMenus;
